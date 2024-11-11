@@ -26,7 +26,7 @@ Register Number : 212223240093
 
 
 ## Write a C program that illustrates two processes communicating using shared memory.
-~~~
+```c
 #include <stdio.h>
 #include <sys/ipc.h>
 #include <sys/shm.h>
@@ -52,7 +52,7 @@ int main()
 
 	return 0;
 }
-~~~
+```
 
 ## OUTPUT
 
